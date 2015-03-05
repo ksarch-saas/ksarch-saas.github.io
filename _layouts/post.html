@@ -4,8 +4,13 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <div class="post-meta">
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <span class="post-author"><a href="mailto:{{ page.email }}">{{ page.author }}</a></span>
+  </div>
+
   {{ content }}
+
 </div>
 
 <div class="related">

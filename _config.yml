@@ -3,22 +3,22 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:categories/:title/
 
 # Setup
-title:            Ksarch-Store
+title:            Ksarch-SaaS
 tagline:          'Tech Blog'
 description:      'A storage team at Baidu,Inc. lol'
-url:              http://ksarch-store.github.io
+url:              http://ksarch-saas.github.io
 baseurl:          /
 paginate:         5
 
 author:
-  name:           'Ksarch-Store'
-  url:            https://twitter.com/ksarch-store
+  name:           'Ksarch-SaaS'
+  url:            https://twitter.com/ksarch-saas
 
 # Custom vars
 # version:          1.0.0
 
 github:
-  repo:           https://github.com/ksarch-store
+  repo:           https://github.com/ksarch-saas
