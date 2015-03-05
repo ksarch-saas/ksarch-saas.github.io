@@ -10,6 +10,7 @@ title:            Ksarch-Store
 tagline:          'Tech Blog'
 description:      'A storage team at Baidu,Inc. lol'
 url:              http://ksarch-store.github.io
+baseurl:          /
 paginate:         5
 
 author:
